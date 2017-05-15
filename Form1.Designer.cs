@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.lblTest = new System.Windows.Forms.Label();
+            this.cbox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lblTest
@@ -40,11 +41,22 @@
             this.lblTest.TabIndex = 0;
             this.lblTest.Text = "Detta är ett test";
             // 
+            // cbox
+            // 
+            this.cbox.AutoSize = true;
+            this.cbox.Location = new System.Drawing.Point(144, 226);
+            this.cbox.Name = "cbox";
+            this.cbox.Size = new System.Drawing.Size(98, 21);
+            this.cbox.TabIndex = 1;
+            this.cbox.Text = "checkBox1";
+            this.cbox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(654, 417);
+            this.Controls.Add(this.cbox);
             this.Controls.Add(this.lblTest);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblTest;
+        private System.Windows.Forms.CheckBox cbox;
     }
 }
 
