@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblTest = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lblTest
+            // 
+            this.lblTest.AutoSize = true;
+            this.lblTest.Location = new System.Drawing.Point(157, 128);
+            this.lblTest.Name = "lblTest";
+            this.lblTest.Size = new System.Drawing.Size(106, 17);
+            this.lblTest.TabIndex = 0;
+            this.lblTest.Text = "Detta är ett test";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(654, 417);
+            this.Controls.Add(this.lblTest);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblTest;
     }
 }
 
